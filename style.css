@@ -412,6 +412,45 @@ section {
 #projects {
   position: relative;
 }
+/* General button styles */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Specific styles for the GitHub buttons */
+.btn-color-1 {
+  background-color: #333;
+}
+
+.btn-color-1:hover {
+  background-color: #555;
+}
+
+/* Adjusting the container for buttons in project section */
+.btn-container {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Project description styles */
+.project-description {
+  margin-top: 10px;
+  color: #555;
+}
 
 .color-container {
   border-color: rgb(163, 163, 163);
